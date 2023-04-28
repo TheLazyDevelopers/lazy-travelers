@@ -5,9 +5,9 @@ body {
   background-image:url(../img/background3.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 960;
-  margin-left: 30px;
-  margin-right: 30px;
+  max-width: 920;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 0;
   padding-bottom: 75px;
 }
@@ -15,7 +15,7 @@ body {
 
 #lazyLogo {
   z-index: 2;
-  width: 150px;
+  width: 190px;
   opacity: .5;
   height: 90px;
   margin-bottom: 80px;
@@ -30,6 +30,8 @@ footer {
  background-color: rgb(234, 217, 217);
  color: rgb(141, 135, 135);
  text-align: center;
+ padding: 25px 0;
+ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
  /* line-height: 0.9; */
 } 
 
@@ -113,12 +115,19 @@ h1 {
 
 legend {
   font-size: 20px;
-  margin-left: 600px;
   padding: 20px;
 }
 
 label {
-  margin-left: 50px;
+  margin-left: 20px;
+}
+
+input {
+  width: 100px;
+}
+
+#submitBtn {
+  margin-left: 20px;
 }
 
 /* About Us Html Rules */
@@ -147,6 +156,7 @@ label {
   display: block;
   background-color: rgb(241, 235, 226);
   border: 2px solid gray;
+  opacity: .9;
 }
 
 #bottomAboutUs {
@@ -159,13 +169,18 @@ label {
   margin: 30px;
 }
 
+#resultsImg {
+  width: 500px;
+  height: 600px;
+  border-radius: 30%;
+  box-shadow: 0px 0px 5px 0px rgba(197, 197, 197, 0.75);
+}
+
 .navintroduction {
-  margin-left: 50px;
   width: 100px;
   overflow-y: auto;
   width: 100%;
-  margin-left: 15px;
-  max-height: 200px;
+  max-height: 120px;
   margin-bottom: 30px;
   margin-top: 20px;
 }
@@ -177,10 +192,11 @@ label {
 }
 
 .usPictures {
-  width: 100%;
-  height: 320px;
+  width: 80%;
+  height: 280px;
   border-radius: 20%;
   border: 2px solid rgb(0, 0, 0); 
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 #aAboutUsLink {
@@ -190,11 +206,18 @@ label {
   color: red;
 }
 
+
 .usNames {
   text-align: left;
   font-size: larger;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 60px;
+}
+
+#pIntroduction {
+  width: 80%;
+  margin-left:130px;
 }
 
 h2 {
@@ -202,12 +225,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-div > #resultsImg{
-  width: 100%;
-  /* position: absolute; 
-  bottom: 5px; 
-  left: 5px;  */
-}
+
 
 p {
   font-size: large;
@@ -216,21 +234,46 @@ p {
 }
 
 #resultsTopSection {
-  width: 90%;
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
 }
 
 #resultsBottomSection {
   /* color: */
-  padding-left: 5rem
+  display: block;
   /* float: right; */
+}
+
+ul {
+  padding: 15px;
+  padding-left: 25px;
+  width: 250px;
+  text-align: left;
+}
+
+#resultsUL {
+  position: relative;
+  margin: 25px auto;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  list-style-type: none;
+  background-color: rgb(35, 74, 74);
+  text-align: center;
+  padding-left: 0;
 }
 
 #resultsBottomSection a {
   color:blanchedalmond;
+  margin-top: 50px;
+}
+
+#indexRedirect {
+  margin-right: 50px;
 }
 
 .resultBookingSection {
-  display: flex;
+  display: block;
+  text-align: center;
 }
 
 #imgContainer {
